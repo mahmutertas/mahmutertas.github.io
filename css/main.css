@@ -384,6 +384,32 @@ ul.sub-menu {
 /*************************
 *******Footer******
 **************************/
+#popup{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: 1000;
+  background: #fff;
+  width: 450px;
+  padding: 80px 50px 50px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.08);
+  transition: 0.5s;
+  visibility: hidden;
+}
+#popup.active{
+  visibility: visible;
+  top: 50%;
+}
+#popup .content{
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
 
 #footer {
   padding-bottom: 10px;
