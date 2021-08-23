@@ -386,7 +386,7 @@ ul.sub-menu {
 **************************/
 
 #footer {
-  padding-bottom: 50px;
+  padding-bottom: 10px;
   background-image: url(../images/home/footer.png);
   background-repeat: repeat-x;
   background-position: bottom;
