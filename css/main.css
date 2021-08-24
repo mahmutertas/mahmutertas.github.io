@@ -402,13 +402,24 @@ ul.sub-menu {
   top: 50%;
 }
 #popup .content{
-  position: relative;
-  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  width: 450px;
+  height: 220px;
   display: flex;
+  z-index: 2;
+  text-align: center;
+  padding: 20px;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  box-sizing: border-box;
 }
+
+
 
 
 #footer {
